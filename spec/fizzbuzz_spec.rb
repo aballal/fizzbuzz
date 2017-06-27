@@ -10,4 +10,8 @@ describe 'fizzbuzz' do
   it 'fizzbuzzes when passed 15' do
     expect(fizzbuzz(15)).to eq "Fizzbuzz"
   end
+  it 'returns number otherwise' do
+    n = [1, 2, 4, 6].sample
+    expect(fizzbuzz(n)).to eq n
+  end
 end
