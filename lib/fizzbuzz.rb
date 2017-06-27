@@ -7,5 +7,6 @@ def fizzbuzz(n)
   when n % 5 == 0
     "Buzz"
   else
+    n
   end
 end
