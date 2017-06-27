@@ -8,9 +8,14 @@ The program Fizzbuzz can be passed a number.
 
 ## How to use ##
 
+From fizzbuzz directory
+
 ```shell
-ruby fizzbuzz.rb
+ruby ./lib/fizzbuzz.rb [n]
 ```
+## Arguments ##
+
+[n] - Optional, a number
 
 ## Test script
 
