@@ -10,3 +10,8 @@ def fizzbuzz(n)
     n
   end
 end
+
+if ARGV.first != nil
+  n = ARGV.first.to_i
+  puts "#{n} --> #{fizzbuzz(n)}"
+end
